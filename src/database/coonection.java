@@ -21,7 +21,8 @@ public class coonection {
         System.out.println(" mysql Tasting");
          try{
            Class.forName("com.mysql.jdbc.Driver");
-           connect= DriverManager.getConnection("jdbc:mysql://Localhost/trans?user=root&password=house200");
+           connect= DriverManager.getConnection("jdbc:mysql://Localhost/trans?user=root&password=****
+                                                ");
          }catch(Exception ex){
              System.out.println("connection ereor ");
              ex.printStackTrace();
